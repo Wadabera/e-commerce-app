@@ -42,7 +42,7 @@ services:
     staticPublishPath: ./client/dist
     envVars:
       - key: VITE_BACKEND_URL
-        value: https://e-commerce-app-backe.onrender.com
+        value: https://e-commerce-app-backendgn.onrender.com
       - key: VITE_CLERK_PUBLISHABLE_KEY
         sync: false
     routes:
