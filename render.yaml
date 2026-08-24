@@ -39,7 +39,7 @@ services:
     region: oregon
     plan: free
     buildCommand: cd client && npm install && npm run build
-    staticPublishPath: ./client/dist
+    staticPublishPath: ./client/build
     envVars:
       - key: VITE_BACKEND_URL
         value: https://e-commerce-app-backendgn.onrender.com
