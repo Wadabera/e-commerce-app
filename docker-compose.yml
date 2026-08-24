@@ -33,8 +33,7 @@ services:
     ports:
       - "5173:5173"
     environment:
-      - VITE_API_URL=http://localhost:5000
-      - VITE_INTERNAL_API_URL=http://backend:5000
+      - VITE_BACKEND_URL=http://localhost:5000
     env_file:
       - ./client/.env
     depends_on:

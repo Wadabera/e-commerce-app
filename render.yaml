@@ -41,8 +41,8 @@ services:
     buildCommand: cd client && npm install && npm run build
     staticPublishPath: ./client/dist
     envVars:
-      - key: VITE_API_URL
-        value: https://ecommerce-backend.onrender.com
+      - key: VITE_BACKEND_URL
+        value: https://e-commerce-app-backe.onrender.com
       - key: VITE_CLERK_PUBLISHABLE_KEY
         sync: false
     routes:
